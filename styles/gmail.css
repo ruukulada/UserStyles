@@ -3,6 +3,6 @@
     filter: invert(1) hue-rotate(180deg) contrast(0.8);
   }
   * {
-    text-shadow: 0 0 0;
+    text-shadow: 0 0 0 #7f7f7f;
   }
 }
