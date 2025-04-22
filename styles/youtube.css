@@ -1,22 +1,19 @@
 * {
   font-family: 'Roboto Flex', sans-serif !important;
 }
-div[id="full-bleed-container"] {
-  max-height: 100vh !important;
-}
-div[id="player-full-bleed-container"] {
-  width: 100vw;
-}
 div[id="masthead-container"] {
   opacity: 0%;
 }
 div[id="masthead-container"]:hover {
   opacity: 100%;
 }
-ytd-watch-flexy {
-  top: -56px;
-  position: relative;
+div[id="full-bleed-container"] {
+  max-height: 100vh !important;
 }
 div.style-scope.ytd-watch-flexy {
   min-width: 0px !important;
+}
+ytd-watch-flexy {
+  top: -56px;
+  position: relative;
 }
