@@ -20,6 +20,10 @@ Reddit:
 ```
 https://ruukulada.github.io/WebsiteCustomCss/styles/reddit.css
 ```
+Telegram:
+```
+https://ruukulada.github.io/WebsiteCustomCss/styles/telegram.css
+```
 YouTube:
 ```
 https://ruukulada.github.io/WebsiteCustomCss/styles/youtube.css
