@@ -3,17 +3,17 @@
 }
 div[id="masthead-container"] {
   opacity: 0%;
-}
-div[id="masthead-container"]:hover {
-  opacity: 100%;
+  &:hover {
+    opacity: 100%;
+  }
 }
 div[id="full-bleed-container"] {
   max-height: 100vh !important;
 }
 div.style-scope.ytd-watch-flexy {
-  min-width: 0px !important;
+  min-width: 0 !important;
 }
 ytd-watch-flexy {
-  top: -56px;
   position: relative;
+  top: -56px;
 }
