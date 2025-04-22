@@ -2,6 +2,9 @@
   html {
     filter: invert(1) hue-rotate(180deg) contrast(0.8);
   }
+  img {
+    filter: invert(1) hue-rotate(180deg);
+  }
   * {
     text-shadow: 0 0 0 #7f7f7f;
   }
