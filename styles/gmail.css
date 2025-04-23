@@ -6,6 +6,6 @@
     filter: invert(1) hue-rotate(180deg);
   }
   * {
-    text-shadow: 0 0 0 #7f7f7f;
+    text-shadow: 0 0 0;
   }
 }
