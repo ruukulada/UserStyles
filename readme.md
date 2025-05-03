@@ -1,30 +1,15 @@
 **Custom CSS for various websites**
 
-Discord:
-```
-https://ruukulada.github.io/CustomCss/styles/discord.user.css
-```
-GitHub:
-```
-https://ruukulada.github.io/CustomCss/styles/github.user.css
-```
-Gmail:
-```
-https://ruukulada.github.io/CustomCss/styles/gmail.user.css
-```
-Google:
-```
-https://ruukulada.github.io/CustomCss/styles/google.user.css
-```
-Reddit:
-```
-https://ruukulada.github.io/CustomCss/styles/reddit.user.css
-```
-Telegram:
-```
-https://ruukulada.github.io/CustomCss/styles/telegram.user.css
-```
-YouTube:
-```
-https://ruukulada.github.io/CustomCss/styles/youtube.user.css
-```
+Discord: [user.css](https://ruukulada.github.io/CustomCss/styles/discord.user.css)
+
+GitHub: [user.css](https://ruukulada.github.io/CustomCss/styles/github.user.css)
+
+Gmail: [user.css](https://ruukulada.github.io/CustomCss/styles/gmail.user.css)
+
+Google: [user.css](https://ruukulada.github.io/CustomCss/styles/google.user.css)
+
+Reddit: [user.css](https://ruukulada.github.io/CustomCss/styles/reddit.user.css)
+
+Telegram: [user.css](https://ruukulada.github.io/CustomCss/styles/telegram.user.css)
+
+YouTube: [user.css](https://ruukulada.github.io/CustomCss/styles/youtube.user.css)
