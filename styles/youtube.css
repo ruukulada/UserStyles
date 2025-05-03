@@ -1,22 +1,32 @@
-* {
-  font-family: 'Roboto Flex', sans-serif !important;
-}
-div[id="masthead-container"] {
-  opacity: 0%;
-  &:hover {
-    opacity: 100%;
+/* ==UserStyle==
+@name           RuukuLada YouTube
+@version        1.0.0
+@description    RuukuLada YouTube
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+  * {
+    font-family: 'Roboto Flex', sans-serif !important;
   }
-}
-div[id="full-bleed-container"] {
-  max-height: 100vh !important;
-}
-div.style-scope.ytd-watch-flexy {
-  min-width: 0 !important;
-}
-ytd-watch-flexy[flexy] {
-  position: relative;
-  top: -56px;
-}
-ytd-watch-flexy[fullscreen] {
-  top: 0px;
+  div[id="masthead-container"] {
+    opacity: 0%;
+    &:hover {
+      opacity: 100%;
+    }
+  }
+  div[id="full-bleed-container"] {
+    max-height: 100vh !important;
+  }
+  div.style-scope.ytd-watch-flexy {
+    min-width: 0 !important;
+  }
+  ytd-watch-flexy[flexy] {
+    position: relative;
+    top: -56px;
+  }
+  ytd-watch-flexy[fullscreen] {
+    top: 0px;
+  }
 }
