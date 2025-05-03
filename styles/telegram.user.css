@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           RuukuLada Telegram
+@version        1.0.0
+@description    RuukuLada Telegram
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("web.telegram.org") {
+  *:not(code,pre) {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+}
