@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           RuukuLada Twitter
+@version        1.0.0
+@description    RuukuLada Twitter
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("x.com") {
+  *:not(code,pre,span) {
+    font-family: 'Roboto Flex', sans-serif !important;
+  }
+}
