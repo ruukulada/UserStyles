@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           RuukuLada Reddit
+@version        1.0.0
+@description    RuukuLada Reddit
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+  *:not(code,pre) {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+}
