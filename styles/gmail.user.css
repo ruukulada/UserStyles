@@ -1,21 +1,23 @@
 /* ==UserStyle==
-@name           RuukuLada Gmail
+@name           RuukuLada Gmail/Translate/Voice
 @version        1.0.0
-@description    RuukuLada Gmail
+@description    RuukuLada Gmail/Translate/Voice
 @author         https://github.com/ruukulada
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 
-@-moz-document domain("mail.google.com") {
-  @media (prefers-color-scheme: dark) {
-    html {
-      filter: invert(1) hue-rotate(180deg) contrast(0.8);
+@-moz-document domain("mail.google.com"),
+  domain("translate.google.com"),
+  domain("voice.google.com") {
+    @media (prefers-color-scheme: dark) {
+      html {
+        filter: invert(1) hue-rotate(180deg) contrast(0.8);
+      }
+      img {
+        filter: invert(1) hue-rotate(180deg);
+      }
+      * {
+        text-shadow: 0 0 1px;
+      }
     }
-    img {
-      filter: invert(1) hue-rotate(180deg);
-    }
-    * {
-      text-shadow: 0 0 1px;
-    }
-  }
 }
