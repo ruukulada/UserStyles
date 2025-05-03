@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           RuukuLada GitHub
+@version        1.0.0
+@description    RuukuLada GitHub
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+  *:not(code,div,pre,span) {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+}
