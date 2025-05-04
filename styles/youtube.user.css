@@ -7,9 +7,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
-  * {
-    font-family: 'Roboto Flex', sans-serif !important;
-  }
   div[id="masthead-container"] {
     opacity: 0%;
     &:hover {
