@@ -1,6 +1,6 @@
 **Custom CSS for various websites**
 
-- Discord: [user.css](https://ruukulada.github.io/CustomCss/styles/discord.user.css)
+- Discord: [user.css](https://ruukulada.github.io/DiscordRevamp/theme.user.css)
 - GitHub: [user.css](https://ruukulada.github.io/CustomCss/styles/github.user.css)
 - Gmail: [user.css](https://ruukulada.github.io/CustomCss/styles/gmail.user.css)
 - Google: [user.css](https://ruukulada.github.io/CustomCss/styles/google.user.css)
