@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           RuukuLada Outlook/Teams
+@version        1.0.0
+@description    RuukuLada Outlook/Teams
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("outlook.office.com"), domain("teams.microsoft.com") {
+  *:not(code, pre) {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+}
