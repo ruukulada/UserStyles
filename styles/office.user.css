@@ -7,7 +7,19 @@
 ==/UserStyle== */
 
 @-moz-document domain("outlook.office.com"), domain("teams.microsoft.com") {
-  *:not(code, pre) {
+  *:not(code, i, pre) {
     font-family: 'Roboto Flex', sans-serif;
+  }
+}
+
+@-moz-document domain("outlook.office.com") {
+  div[aria-label="Message list"] {
+    max-width: 25vw;
+  }
+  div:has(>div[aria-label="Message list"]) {
+    max-width: 25vw;
+  }
+  div[aria-label="Navigation pane"] {
+    max-width: 15vmin;
   }
 }
