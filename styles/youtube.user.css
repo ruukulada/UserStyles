@@ -6,7 +6,7 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 
-@-moz-document domain("youtube.com") {
+@-moz-document url-prefix("https://www.youtube.com/watch?v=") {
   div[id="masthead-container"] {
     opacity: 0%;
     &:hover {
@@ -24,6 +24,11 @@
     top: -56px;
   }
   ytd-watch-flexy[fullscreen] {
+    top: 0px;
+  }
+}
+@-moz-document domain("youtube.com") {
+  :root {
     top: 0px;
   }
 }
