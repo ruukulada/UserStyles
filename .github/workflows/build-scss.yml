@@ -1,0 +1,42 @@
+name: Build SCSS
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install -g sass
+    
+    - name: Compile gappsdark.user.css
+      run: sass --no-source-map styles/_gappsdark.user.scss:./dist/gappsdark.user.css
+
+    - name: Compile robotoflexfont.user.css
+      run: sass --no-source-map styles/_robotoflexfont.user.scss:./dist/robotoflexfont.user.css
+
+    - name: Compile youtubetheatre.user.css
+      run: sass --no-source-map styles/_youtubetheatre.user.scss:./dist/youtubetheatre.user.css
+
+    - name: Compile github.user.css
+      run: sass --no-source-map styles/_github.user.scss:./dist/github.user.css
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
