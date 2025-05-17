@@ -8,4 +8,4 @@
 - Reddit: [user.css](https://ruukulada.github.io/CustomCss/styles/reddit.user.css)
 - Telegram: [user.css](https://ruukulada.github.io/CustomCss/styles/telegram.user.css)
 - Twitter, BlueSky: [user.css](https://ruukulada.github.io/CustomCss/styles/twitter.user.css)
-- YouTube Better Theatre: [user.css](https://ruukulada.github.io/CustomCss/styles/youtube.user.css)
+- YouTube Big Theatre: [user.css](https://ruukulada.github.io/CustomCss/styles/youtube.user.css)
