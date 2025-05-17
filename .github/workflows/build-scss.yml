@@ -32,9 +32,6 @@ jobs:
     - name: Compile youtubetheatre.user.css
       run: sass --no-source-map styles/_youtubetheatre.user.scss:./dist/youtubetheatre.user.css
 
-    - name: Compile github.user.css
-      run: sass --no-source-map styles/_github.user.scss:./dist/github.user.css
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
