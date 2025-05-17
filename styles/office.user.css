@@ -6,7 +6,8 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 
-@-moz-document domain("outlook.office.com"), domain("teams.microsoft.com") {
+@-moz-document domain("outlook.office.com"),
+domain("teams.microsoft.com") {
   *:not(code, i, pre) {
     font-family: 'Roboto Flex', sans-serif;
   }
