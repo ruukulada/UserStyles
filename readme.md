@@ -1,6 +1,6 @@
 **Custom CSS for various websites**
 
-- Discord: [user.css](https://ruukulada.github.io/DiscordRevamp/theme.user.css)
+- Discord Revamp: [user.css](https://ruukulada.github.io/DiscordRevamp/theme.user.css)
 - GitHub: [user.css](https://ruukulada.github.io/CustomCss/styles/github.user.css)
 - Google Apps Dark: [user.css](https://ruukulada.github.io/CustomCss/styles/gappsdark.user.css)
 - Google, DuckDuckGo, Bing: [user.css](https://ruukulada.github.io/CustomCss/styles/search.user.css)
