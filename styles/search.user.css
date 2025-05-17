@@ -1,13 +1,15 @@
 /* ==UserStyle==
-@name           RuukuLada Google
+@name           RuukuLada Search
 @version        1.0.0
-@description    RuukuLada Google
+@description    Google, DuckDuckGo, Bing.
 @author         https://github.com/ruukulada
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 
-@-moz-document domain("www.google.com") {
-  *:not(code,pre,span) {
+@-moz-document domain("www.google.com"),
+domain("duckduckgo.com"),
+domain("www.bing.com") {
+  *:not(code, pre, span) {
     font-family: 'Roboto Flex', sans-serif !important;
   }
 }
