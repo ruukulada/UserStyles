@@ -10,7 +10,7 @@
 domain("translate.google.com"),
 domain("voice.google.com") {
   @media (prefers-color-scheme: dark) {
-    html {
+    body {
       filter: invert(1) hue-rotate(180deg) contrast(0.8);
     }
     img {
@@ -18,6 +18,16 @@ domain("voice.google.com") {
     }
     * {
       text-shadow: 0 0 1px;
+    }
+  }
+}
+@-moz-document domain("mail.google.com") {
+  @media (prefers-color-scheme: dark) {
+    .yO {
+      background: #eaeaea;
+    }
+    .aps {
+      background: rgb(210, 227, 252);
     }
   }
 }
