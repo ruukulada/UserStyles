@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Outlook Vertical Monitor
+@description    Outlook.
+@version        1.0.0
+@author         https://github.com/ruukulada
+@namespace      https://github.com/ruukulada
+==/UserStyle== */
+
+@-moz-document domain("outlook.office.com") {
+  div[aria-label="Message list"] {
+    max-width: 25vw;
+  }
+  div:has(>div[aria-label="Message list"]) {
+    max-width: 25vw;
+  }
+  div[aria-label="Navigation pane"] {
+    max-width: 15vw;
+  }
+}
