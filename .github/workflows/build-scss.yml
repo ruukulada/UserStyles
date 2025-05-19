@@ -26,6 +26,9 @@ jobs:
     - name: Compile gappsdark.user.css
       run: sass --no-source-map styles/_gappsdark.user.scss:./dist/gappsdark.user.css
 
+    - name: Compile outlookvertmonitor.user.css
+      run: sass --no-source-map styles/_outlookvertmonitor.user.scss:./dist/outlookvertmonitor.user.css
+
     - name: Compile robotoflexfont.user.css
       run: sass --no-source-map styles/_robotoflexfont.user.scss:./dist/robotoflexfont.user.css
 
