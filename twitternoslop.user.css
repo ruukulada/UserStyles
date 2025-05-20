@@ -6,9 +6,6 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 @-moz-document domain("x.com") {
-  header {
-    height: 96px;
-  }
   a[href="/explore"],
   a[href="/jobs"],
   a[href="/i/grok"],
@@ -19,9 +16,14 @@
   a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"],
   a[href$="/communities"],
   a[href$="/lists"],
-  div.css-175oi2r[data-testid=placementTracking]:not(div.r-1p0dtai),
+  div[data-testid=TopNavBar] + div,
   div[data-testid=super-upsell-UpsellButtonRenderProperties],
-  div[role=group] > div:nth-child(4) {
+  div[role=group] > div:nth-child(4),
+  header > div {
     display: none;
+  }
+  header {
+    z-index: 0 !important;
+    height: 7rem !important;
   }
 }
