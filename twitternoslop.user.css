@@ -6,7 +6,6 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 @-moz-document domain("x.com") {
-  /* https://github.com/ruukulada/DiscordRevamp */
   header {
     height: 96px;
   }
