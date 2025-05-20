@@ -32,6 +32,9 @@ jobs:
     - name: Compile robotoflexfont.user.css
       run: sass --no-source-map styles/_robotoflexfont.user.scss:./dist/robotoflexfont.user.css
 
+    - name: Compile twitternoslop.css
+      run: sass --no-source-map styles/src/_twitternoslop.scss:./dist/src/twitternoslop.css
+
     - name: Compile twitternoslop.user.css
       run: sass --no-source-map styles/_twitternoslop.user.scss:./dist/twitternoslop.user.css
 
