@@ -11,23 +11,23 @@ domain("translate.google.com"),
 domain("voice.google.com") {
   @media (prefers-color-scheme: dark) {
     body {
-      filter: invert(1) hue-rotate(180deg) contrast(0.8);
+      filter:invert(1) hue-rotate(180deg) contrast(0.8);
     }
     img {
-      filter: invert(1) hue-rotate(180deg);
+      filter:invert(1) hue-rotate(180deg);
     }
     * {
-      text-shadow: 0 0 1px;
+      text-shadow:0 0 1px;
     }
   }
 }
 @-moz-document domain("mail.google.com") {
   @media (prefers-color-scheme: dark) {
     .yO {
-      background: #eaeaea;
+      background:#eaeaea;
     }
     .aps {
-      background: rgb(210, 227, 252);
+      background:rgb(210, 227, 252);
     }
   }
 }
