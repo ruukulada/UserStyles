@@ -16,4 +16,8 @@
   div:has(>div.a7Ps_) {
     max-width:15vw;
   }
+  div[aria-label="Navigation pane"]+div,
+  div:has(+div[aria-label="Reading Pane"]) {
+    cursor:auto;
+  }
 }
