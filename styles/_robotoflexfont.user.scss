@@ -12,23 +12,23 @@ domain("www.bing.com"),
 domain("x.com"),
 domain("bsky.app") {
   *:not(code,pre,span) {
-    font-family: 'Roboto Flex', sans-serif !important;
+    font-family:'Roboto Flex', sans-serif !important;
   }
 }
 @-moz-document domain("reddit.com"),
 domain("web.telegram.org") {
   *:not(code,pre) {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family:'Roboto Flex', sans-serif;
   }
 }
 @-moz-document domain("github.com") {
   *:not(code,div,pre,span) {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family:'Roboto Flex', sans-serif;
   }
 }
 @-moz-document domain("outlook.office.com"),
 domain("teams.microsoft.com") {
   *:not(code,i,pre) {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family:'Roboto Flex', sans-serif;
   }
 }
