@@ -12,7 +12,7 @@
   div:has(> div[aria-label="Message list"]) {
     max-width: 25vw;
   }
-  div[aria-label="Navigation pane"] {
+  div:has(> div.a7Ps_) {
     max-width: 15vw;
   }
 }
