@@ -3,7 +3,7 @@ div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-
 }
 
 div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-testid=top-impression-pixel]) > div {
-  height: 0px;
+  height: 0px !important;
 }
 
 a[href="/explore"],
