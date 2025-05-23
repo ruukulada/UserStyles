@@ -18,5 +18,6 @@
   div[aria-label="Navigation pane"] + div,
   div:has(+ div[aria-label="Reading Pane"]) {
     cursor: auto;
+    pointer-events: none;
   }
 }
