@@ -27,6 +27,19 @@
   }
 }
 @-moz-document domain("www.youtube.com") {
+  div[id=full-bleed-container] {
+    max-height: 100vh !important;
+  }
+  div.style-scope.ytd-watch-flexy {
+    min-width: 0 !important;
+  }
+  ytd-watch-flexy[flexy] {
+    position: relative;
+    top: -56px;
+  }
+  ytd-watch-flexy[fullscreen] {
+    top: 0px;
+  }
   div[id=masthead-container] {
     opacity: 100%;
   }
