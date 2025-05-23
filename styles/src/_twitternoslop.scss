@@ -10,7 +10,7 @@ a[href$="/communities"],
 a[href$="/lists"],
 div[data-testid=TopNavBar]+div,
 div[data-testid=super-upsell-UpsellButtonRenderProperties],
-div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking]),
+div[data-testid=cellInnerDiv]:has(>div>div>div[data-testid=placementTracking]),
 header>div {
   display:none;
 }
