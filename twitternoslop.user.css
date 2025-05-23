@@ -7,8 +7,10 @@
 ==/UserStyle== */
 @-moz-document domain("x.com") {
   div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-testid=top-impression-pixel]) {
-    height: 0px;
     display: none;
+  }
+  div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-testid=top-impression-pixel]) > div {
+    height: 0px;
   }
   a[href="/explore"],
   a[href="/jobs"],
