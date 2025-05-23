@@ -6,17 +6,17 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 
+@-moz-document domain("www.youtube.com") {
+  @import "src/youtubetheatre";
+  div[id=masthead-container] {
+    opacity:100%;
+  }
+}
 @-moz-document url-prefix("https://www.youtube.com/watch?v=") {
   div[id=masthead-container] {
     opacity:0%;
     &:hover {
       opacity:100%;
     }
-  }
-}
-@-moz-document domain("www.youtube.com") {
-  @import "src/youtubetheatre";
-  div[id=masthead-container] {
-    opacity:100%;
   }
 }
