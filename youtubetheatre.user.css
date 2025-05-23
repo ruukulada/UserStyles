@@ -19,9 +19,15 @@
   ytd-watch-flexy[fullscreen] {
     top: 0px;
   }
+  div[id=masthead-container] {
+    opacity: 0%;
+  }
+  div[id=masthead-container]:hover {
+    opacity: 100%;
+  }
 }
 @-moz-document domain("www.youtube.com") {
-  :root {
-    top: 0px;
+  div[id=masthead-container] {
+    opacity: 100%;
   }
 }
