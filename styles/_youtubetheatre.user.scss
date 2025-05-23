@@ -7,7 +7,6 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.youtube.com/watch?v=") {
-  @import "src/youtubetheatre";
   div[id=masthead-container] {
     opacity:0%;
     &:hover {
