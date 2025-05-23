@@ -16,6 +16,7 @@
   }
 }
 @-moz-document domain("www.youtube.com") {
+  @import "src/youtubetheatre";
   div[id=masthead-container] {
     opacity:100%;
   }
