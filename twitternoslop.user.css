@@ -6,6 +6,10 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 @-moz-document domain("x.com") {
+  div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-testid=top-impression-pixel]) {
+    height: 0px;
+    display: none;
+  }
   a[href="/explore"],
   a[href="/jobs"],
   a[href="/i/grok"],
@@ -16,7 +20,6 @@
   a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"],
   a[href$="/communities"],
   a[href$="/lists"],
-  div[data-testid=cellInnerDiv]:has(div[data-testid=placementTracking] > div[data-testid=top-impression-pixel]),
   div[data-testid=super-upsell-UpsellButtonRenderProperties],
   div[data-testid=TopNavBar] + div,
   header > div {
