@@ -6,19 +6,6 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.youtube.com/watch?v=") {
-  div[id=full-bleed-container] {
-    max-height: 100vh !important;
-  }
-  div.style-scope.ytd-watch-flexy {
-    min-width: 0 !important;
-  }
-  ytd-watch-flexy[flexy] {
-    position: relative;
-    top: -56px;
-  }
-  ytd-watch-flexy[fullscreen] {
-    top: 0px;
-  }
   div[id=masthead-container] {
     opacity: 0%;
   }
