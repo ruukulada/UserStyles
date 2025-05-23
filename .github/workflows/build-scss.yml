@@ -38,6 +38,9 @@ jobs:
     - name: Compile twitternoslop.user.css
       run: sass --no-source-map styles/_twitternoslop.user.scss:./dist/twitternoslop.user.css
 
+    - name: Compile youtubetheatre.css
+      run: sass --no-source-map styles/src/_youtubetheatre.scss:./dist/src/youtubetheatre.css
+
     - name: Compile youtubetheatre.user.css
       run: sass --no-source-map styles/_youtubetheatre.user.scss:./dist/youtubetheatre.user.css
 
