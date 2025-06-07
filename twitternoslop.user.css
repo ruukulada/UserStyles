@@ -6,7 +6,6 @@
 @namespace      https://github.com/ruukulada
 ==/UserStyle== */
 @-moz-document domain("x.com") {
-  a[href="/explore"],
   a[href="/jobs"],
   a[href="/i/grok"],
   a[href="/i/monetization"],
