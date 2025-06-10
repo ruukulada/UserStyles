@@ -9,7 +9,7 @@
 domain("translate.google.com"),
 domain("voice.google.com") {
   @media (prefers-color-scheme: dark) {
-    body {
+    html {
       filter: invert(1) hue-rotate(180deg) contrast(0.8);
     }
     img {
