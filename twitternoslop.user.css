@@ -29,4 +29,7 @@
     z-index: 0 !important;
     height: 6.929rem !important;
   }
+  article {
+    padding: 0 !important;
+  }
 }
