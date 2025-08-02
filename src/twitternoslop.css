@@ -29,11 +29,10 @@ article {
   padding-right: 0.25rem !important;
 }
 
-article * {
+/*article * {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-}
-
+}*/
 article > :first-child > :first-child > :first-child > :first-child > :first-child {
   padding-top: 0.25rem !important; /* tweet top */
 }
