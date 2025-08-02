@@ -15,6 +15,7 @@
   a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"],
   a[href$="/communities"],
   a[href$="/lists"],
+  button[aria-label^="Subscribe to @"],
   button[aria-label="Grok actions"],
   div[aria-label="Timeline: Trending now"] > div > div:nth-child(n+4):nth-child(-n+4),
   div[data-testid=cellInnerDiv]:has(> div > div > div[data-testid=placementTracking]),
