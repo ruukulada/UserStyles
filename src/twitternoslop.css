@@ -25,5 +25,19 @@ header {
 }
 
 article {
-  padding: 0 !important;
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
+
+article * {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+article > :first-child > :first-child > :first-child > :first-child > :first-child {
+  padding-top: 0.25rem !important; /* tweet top */
+}
+
+div:has(> div > div > div > div > div[data-testid=User-Name]) {
+  padding-bottom: 0.25rem !important; /* tweet bottom */
 }
