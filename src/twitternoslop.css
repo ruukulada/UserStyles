@@ -25,16 +25,16 @@ header {
 }
 
 article * {
-  margin: 0 !important;
-  padding-top: 0 !important;
+  font-size: 0.9rem !important;
+  line-height: 1rem !important;
 }
 
 article {
   padding-left: 0.25rem !important;
   padding-right: 0.25rem !important;
-  padding-top: 0.25rem !important;
 }
 
-div:has(> div > div > div > div > button[data-testid=reply]) {
-  padding-bottom: 0.25rem !important;
+button[role=button][type=button] {
+  margin-left: 0;
+  margin-right: 0;
 }
