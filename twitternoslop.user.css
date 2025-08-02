@@ -30,18 +30,16 @@
     z-index: 0 !important;
     height: 6.929rem !important;
   }
+  article * {
+    margin: 0 !important;
+    padding-top: 0 !important;
+  }
   article {
     padding-left: 0.25rem !important;
     padding-right: 0.25rem !important;
+    padding-top: 0.25rem !important;
   }
-  article * {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  article > :first-child > :first-child > :first-child > :first-child > :first-child {
-    padding-top: 0.35rem !important; /* tweet top */
-  }
-  div:has(> div > div > div > div > div[data-testid=User-Name]) {
-    padding-bottom: 0.35rem !important; /* tweet bottom */
+  div:has(> div > div > div > div > button[data-testid=reply]) {
+    padding-bottom: 0.25rem !important;
   }
 }
