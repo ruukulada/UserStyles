@@ -29,7 +29,7 @@ article * {
   line-height: 1rem !important;
 }
 
-article {
+article, article + div {
   padding-left: 0.25rem !important;
   padding-right: 0.25rem !important;
 }
@@ -42,4 +42,8 @@ button[role=button][type=button] {
 div:has(> button[data-testid=bookmark], > button[data-testid=removeBookmark]) {
   flex: 1 1 0%;
   margin-right: 0;
+}
+
+a[role=link] {
+  margin-left: 0;
 }
