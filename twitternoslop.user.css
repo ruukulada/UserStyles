@@ -42,8 +42,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  div:has(> button[data-testid=bookmark][aria-label=Bookmark],
-  > button[data-testid=removeBookmark][aria-label=Bookmarked]) {
+  div:has(> button[data-testid=bookmark], > button[data-testid=removeBookmark]) {
     flex: 1 1 0%;
     margin-right: 0;
   }
