@@ -30,23 +30,8 @@
     z-index: 0 !important;
     height: 6.929rem !important;
   }
-  article * {
-    font-size: 0.9rem !important;
-    line-height: 1rem !important;
-  }
-  article, article + div {
-    padding-left: 0.25rem !important;
-    padding-right: 0.25rem !important;
-  }
-  button[role=button][type=button] {
-    margin-left: 0;
-    margin-right: 0;
-  }
   div:has(> button[data-testid=bookmark], > button[data-testid=removeBookmark]) {
     flex: 1 1 0%;
     margin-right: 0;
-  }
-  a[role=link] {
-    margin-left: 0;
   }
 }
