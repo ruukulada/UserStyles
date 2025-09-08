@@ -12,7 +12,7 @@
   div.style-scope.ytd-watch-flexy {
     min-width: 0 !important;
   }
-  ytd-watch-flexy[flexy] {
+  ytd-watch-flexy {
     position: relative;
     top: -56px;
   }
