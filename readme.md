@@ -2,7 +2,7 @@
 
 | User Styles | Direct Link |
 | --- | --- |
-| Discord Revamp | [`user.css`](https://ruukulada.github.io/DiscordRevamp/theme.user.css) |
+| Discord Revamp | [`user.css`](https://ruukulada.github.io/DiscordRevamp/layout.user.css) |
 | Google Apps Dark | [`user.css`](https://ruukulada.github.io/UserStyles/gappsdark.user.css) |
 | Outlook Vert Monitor | [`user.css`](https://ruukulada.github.io/UserStyles/outlookvertmonitor.user.css) |
 | Roboto Flex Font | [`user.css`](https://ruukulada.github.io/UserStyles/robotoflexfont.user.css) |
