@@ -21,4 +21,7 @@
     cursor: auto;
     pointer-events: none;
   }
+  div[id=BottomBar] > div:nth-of-type(2) {
+    display: none;
+  }
 }
